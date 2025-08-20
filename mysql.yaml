@@ -13,9 +13,9 @@
      state: started
      enabled: yes
 
-  # - name: ansible to install boto3 & botocore
-  #   ansible.builtin.pip:
-  #    name: 
-  #    - boto3
-  #    - botocore
-  #    executable: pip3.9
+  - name: ansible to install boto3 & botocore
+    ansible.builtin.pip:
+     name: 
+     - boto3
+     - botocore
+     executable: pip3.9
