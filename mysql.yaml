@@ -7,8 +7,15 @@
       name: mysql-server
       state: present
 
-  - name: start mysql server
-    ansible.builtin.service:
-     name: mysqld
-     state: started
-     enabled: yes
+  # - name: start mysql server
+  #   ansible.builtin.service:
+  #    name: mysqld
+  #    state: started
+  #    enabled: yes
+
+  # - name: ansible to install boto3 & botocore
+  #   ansible.builtin.pip:
+  #    name: 
+  #    - boto3
+  #    - botocore
+  #    executable: pip3.9
